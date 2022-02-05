@@ -120,6 +120,12 @@ const arrToStr = (arr) => {
 
 const letterCounter = (str) => {
     // write your code here
+
+
+
+
+
+    
 }
 
 
