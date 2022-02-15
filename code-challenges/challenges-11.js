@@ -153,7 +153,7 @@ function gradesAvg(arr) {
 // var students = [
 // 	{
 // 			firstName: 'Adam',
-//      lastName: 'Anderson',
+//           lastName: 'Anderson',
 // 			gradsList: [20,50,13,11,2,45,60,29],
 // 			avg: 28.75
 // },
