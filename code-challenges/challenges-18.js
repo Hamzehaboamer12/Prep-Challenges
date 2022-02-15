@@ -17,14 +17,13 @@
 const wordLength = (str) => {
     // write your code here
 
-
     let string = str.split(" ");
     let len = string.length;
     let mad = len / 2;
     let pos = Math.floor(mad)
     
     return(string[pos].length);
-    
+
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -51,6 +50,27 @@ const wordLength = (str) => {
 const wordLetters = (str1, str2) => {
     // write your code here
 
+    var splitString1 = str1.split("");
+    var splitString2 = str2.split("");
+      let n1 = splitString1.length;
+          let n2 = splitString2.length;
+     
+          
+          if (n1 != n2){
+              return false;
+          }
+          
+          splitString1.sort();
+          splitString2.sort();
+     
+          
+          for (let i = 0; i < n1; i++){
+              if (splitString1[i] != splitString2[i])
+                  return false;
+          }
+       
+          return true;
+
 
 
     
@@ -61,6 +81,7 @@ const wordLetters = (str1, str2) => {
 
 
 6.8
+
 
 
 
